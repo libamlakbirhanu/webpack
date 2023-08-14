@@ -11,7 +11,7 @@ export class ComponentService {
   }
 
   setResult(str) {
-    this.resultDiv.innerText = str;
+    this.resultDiv.innerText = "str";
   }
 
   onClick(cb) {
